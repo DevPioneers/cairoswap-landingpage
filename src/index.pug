@@ -1,0 +1,49 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title CairoSwap | Starknet Aggregation Protocol
+    meta(name="robot" content="index, follow")
+    meta(name="description" content="CairoSwap is a decentralized exchange (DEX) aggregator.")
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet")
+    link(rel="stylesheet" href="./assets/font/stylesheet.css")
+    link(rel="stylesheet" href="./assets/scss/style.scss")
+
+    link(rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png")
+    link(rel="manifest" href="./assets/images/favicon/site.webmanifest")
+
+    meta(name="twitter:card" content="summary_large_image")
+    meta(name="twitter:site" content="CairoSwap")
+    meta(name="twitter:image" content="./assets/images/cover.jpg")
+    meta(property="og:title" content="CairoSwap | Starknet Aggregation Protocol")
+    meta(property="og:site_name" content="CairoSwap")
+    meta(property="og:url" content="https://cairoswap.com")
+    meta(property="og:description" content="CairoSwap is a decentralized exchange (DEX) aggregator.")
+    meta(property="og:image" content="./assets/images/cover.jpg")
+    meta(property="og:image:type" content="image/jpg")
+    meta(property="og:image:width" content="1920")
+    meta(property="og:image:height" content="1080")
+
+  body
+    //include components/preload
+    include components/header
+    include components/section-cover
+    include components/section-technology
+    include components/section-about
+    include components/section-project
+    include components/section-join-us
+    include components/footer
+
+    script(src="./assets/js/main.js")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', '');

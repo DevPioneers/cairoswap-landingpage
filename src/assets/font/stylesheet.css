@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Akira Expanded';
+    src: local('Akira Expanded'), local('AkiraExpanded'),
+        url('Akira_Expanded.woff2') format('woff2'),
+        url('Akira_Expanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

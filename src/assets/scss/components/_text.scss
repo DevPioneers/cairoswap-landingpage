@@ -1,0 +1,70 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #FFFFFF;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.heading {
+  &--lg {
+    font-size: 36px;
+    @media screen and (min-width: 576px) {
+      font-size: 48px;
+    }
+  }
+  &--md {
+    font-size: 24px;
+  }
+  &--sm {
+    font-size: 16px;
+  }
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-dark {
+  color: #0C0C4F;
+}
+
+.text-gradient {
+  font-family: 'SF Distant Galaxy', cursive;
+  background: linear-gradient(90deg, #FF8278 0%, #FF8AD0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-gray {
+  color: #A5A5A5;
+}
+
+.text-sm {
+  font-size: 14px !important;
+}
+
+.text-lg {
+  font-size: 18px !important;
+}
+
+.text-xl {
+  font-size: 24px !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

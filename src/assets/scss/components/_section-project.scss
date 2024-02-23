@@ -1,0 +1,17 @@
+.project-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  max-width: 325px;
+  text-align: center;
+  img {
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+}
